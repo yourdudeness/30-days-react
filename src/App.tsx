@@ -14,6 +14,7 @@ function App() {
       <Link to="/super-todo" style={{marginRight: 10}}>Super todo</Link>
       <Link to="/movies" style={{marginRight: 10}}>Movies</Link>
       <Link to="/timer" style={{marginRight: 10}}>Timer</Link>
+      <Link to="/load-more" style={{marginRight: 10}}>Load more</Link>
     </nav>
   );
 }

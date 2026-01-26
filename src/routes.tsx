@@ -9,6 +9,7 @@ import DragDropList from "./day-6-drag-and-drop/drag-drop-list";
 import SuperTodoList from "./todo-todo/super-todo";
 import MoviesApp from "./day-7-search-movie/movies-app";
 import TimerApp from "./day-8-timer/timer-app";
+import PokemonList from "./day-9-load-more/pokemon-list";
 
 export const AppRoutes = () => {
   return (
@@ -23,6 +24,7 @@ export const AppRoutes = () => {
       <Route path="/super-todo" element={<SuperTodoList />} />
       <Route path="/movies" element={<MoviesApp />} />
       <Route path="/timer" element={<TimerApp />} />
+      <Route path="/load-more" element={<PokemonList />} />
     </Routes>
   );
 };
