@@ -1,0 +1,9 @@
+.card {
+  grid-template-columns: repeat(2, 1fr);
+}
+.description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
