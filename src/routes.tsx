@@ -10,6 +10,7 @@ import SuperTodoList from "./todo-todo/super-todo";
 import MoviesApp from "./day-7-search-movie/movies-app";
 import TimerApp from "./day-8-timer/timer-app";
 import PokemonList from "./day-9-load-more/pokemon-list";
+import ContactBook from "./day-10-contact-book/contact-book";
 
 export const AppRoutes = () => {
   return (
@@ -25,6 +26,7 @@ export const AppRoutes = () => {
       <Route path="/movies" element={<MoviesApp />} />
       <Route path="/timer" element={<TimerApp />} />
       <Route path="/load-more" element={<PokemonList />} />
+      <Route path="/contact-book" element={<ContactBook />} />
     </Routes>
   );
 };
