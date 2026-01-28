@@ -1,6 +1,6 @@
 import { useInfiniteQuery } from "@tanstack/react-query";
 
-const url = "https://pokeapi.co/api/v2/pokemon";
+export const url = "https://pokeapi.co/api/v2/pokemon";
 
 const fetchPokemons = async (offset: number, limit: number) => {
   const params = new URLSearchParams({
