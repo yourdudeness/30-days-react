@@ -16,6 +16,7 @@ function App() {
       <Link to="/timer" style={{marginRight: 10}}>Timer</Link>
       <Link to="/load-more" style={{marginRight: 10}}>Load more</Link>
       <Link to="/contact-book" style={{marginRight: 10}}>Contact book</Link>
+      <Link to="/type-writter-effect" style={{marginRight: 10}}>Type writter effect</Link>
     </nav>
   );
 }
