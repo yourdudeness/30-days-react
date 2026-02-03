@@ -12,6 +12,7 @@ import TimerApp from "./day-8-timer/timer-app";
 import PokemonList from "./day-9-load-more/pokemon-list";
 import ContactBook from "./day-10-contact-book/contact-book";
 import TypewriterEffect from "./day-11-writing-effect/type-writter";
+import BookTable from "./day-12-book-table/book-table";
 
 export const AppRoutes = () => {
   return (
@@ -29,6 +30,7 @@ export const AppRoutes = () => {
       <Route path="/load-more" element={<PokemonList />} />
       <Route path="/contact-book" element={<ContactBook />} />
       <Route path="/type-writter-effect" element={<TypewriterEffect />} />
+      <Route path="/book-a-table" element={<BookTable />} />
     </Routes>
   );
 };
